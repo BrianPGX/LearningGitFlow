@@ -32,7 +32,11 @@
   h1{
     text-align: center;
   }
- 
+ .father{
+    margin: 10px;
+    display: inline-block;
+    
+ }
   .container{
     margin-top: 50px;
     height: 50%;
@@ -67,3 +71,18 @@
     text-decoration: none;
     color: #fff;
   }
+  footer{
+    display: inline-flex;
+    width: 97%;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    justify-content: space-between;
+    font-size: small;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+}
